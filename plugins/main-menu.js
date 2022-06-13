@@ -7,7 +7,7 @@
 * follow my instagram @zexyds_
 **/
 
-//━━━━━━━━[ DEFAULT SETTINGS ]━━━━━━━━//
+//━━━━━━━━[ ZhaaLL SETTINGS ]━━━━━━━━//
 let { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let levelling = require('../lib/levelling')
 let fs = require('fs')
@@ -19,14 +19,14 @@ let fetch = require('node-fetch')
 let { perfomance } = require('perf_hooks')
 let moment = require('moment-timezone')
 
-//━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
+//━━━━━━━━[ ZhaaLL MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
 ┌─「 *${global.namebot}* 」
-├ Hai, %name!
+├ Hai Dicks, %name!
 ├ Tersisa *%limit Limit*
-├ Role *%role*
-├ Level *%level (%exp / %maxexp)*
+├ Role lu *%role*
+├ Level lu *%level (%exp / %maxexp)*
 ├ [%xp4levelup]
 ├ %totalexp XP secara Total
 │ 
