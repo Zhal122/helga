@@ -292,11 +292,11 @@ let menuu = `┌────「 *${namebot}* 」───⬣
 ╰──────⬣
 ┌────「 *${name}* 」───⬣
 │⬡ Api : ${tag}
-│⬡ Limit : ${limit}
-│⬡ Role : ${role}
+│⬡ Limit Lu : ${limit}
+│⬡ Role Lu : ${role}
 │⬡ Premium : ${global.prem ? 'Yes' : 'No'}
 │⬡ Date : ${week} ${date}
-│⬡ Time : ${wib}
+│⬡ Waktu : ${wib}
 ╰──────────────⬣`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
