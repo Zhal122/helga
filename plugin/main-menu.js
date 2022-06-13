@@ -19,14 +19,14 @@ let fetch = require('node-fetch')
 let { perfomance } = require('perf_hooks')
 let moment = require('moment-timezone')
 
-//━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
+//━━━━━━━━[ ZhaaLL MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
 ┌─「 *${global.namebot}* 」
-├ Hai, %name!
+├ Hai Dicks, %name!
 ├ Tersisa *%limit Limit*
-├ Role *%role*
-├ Level *%level (%exp / %maxexp)*
+├ Role lu *%role*
+├ Level lu *%level (%exp / %maxexp)*
 ├ [%xp4levelup]
 ├ %totalexp XP secara Total
 │ 
@@ -292,8 +292,8 @@ let menuu = `┌────「 *${namebot}* 」───⬣
 ╰──────⬣
 ┌────「 *${name}* 」───⬣
 │⬡ Api : ${tag}
-│⬡ Limit : ${limit}
-│⬡ Role : ${role}
+│⬡ Limit lu : ${limit}
+│⬡ Role lu : ${role}
 │⬡ Premium : ${global.prem ? 'Yes' : 'No'}
 │⬡ Date : ${week} ${date}
 │⬡ Time : ${wib}
