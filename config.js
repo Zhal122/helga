@@ -1,7 +1,7 @@
 //=============『 Utama 』================== //
 global.owner = ['6283816171576'] 
-global.mods = [] 
-global.prems = [] 
+global.mods = ['6283816171576'] 
+global.prems = ['6283816171576'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'ZhaaLL'
@@ -15,7 +15,7 @@ global.gopay = '083816171576'
 //=============『 Info Bot 』=================//
 global.namebot = 'ZhaaLLBOT'
 global.gc = 'https://chat.whatsapp.com/Gm5HJW8DjyCFme2fa8n7jW'
-global.web = 'https://www.' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.web = 'https://ZhaaLLGansCoi' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti jadi foto bot mu
