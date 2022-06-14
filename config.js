@@ -16,7 +16,7 @@ global.gopay = '083816171576'
 global.namebot = 'ZhaaLLBOT'
 global.gc = 'https://chat.whatsapp.com/Gm5HJW8DjyCFme2fa8n7jW'
 global.web = 'https://www.' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = '1 bulan = 8.000\n2 Minggu 6.000\n1 Minggu 4.000'
+global.price1 = ''
 
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti jadi foto bot mu
@@ -25,7 +25,7 @@ global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = 'ZhaaLLGans'
 global.watermark = wm
-global.wm2 = '                     「 ZhaaLL あ⁩ 」'
+global.wm2 = '                  「 ZhaaLL あ⁩ 」'
 global.wm3 = '⫹⫺ ZhaaLL'
 global.htki = '––––––『' 
 global.htka = '』––––––'
