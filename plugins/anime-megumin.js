@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-  let res = await fetch('https://api.waifu.pics/sfw/megumin')
+  let res = await fetch('https://restapi-beta.herokuapp.com/api/random/husbu')
   if (!res.ok) throw 'Error Website sedang down'
   let json = await res.json()
   if (!json.url) throw 'Error!'
@@ -15,7 +15,7 @@ ftrol = {
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: 'Random Megumin', 
+    message: 'Random Husbu', 
     orderTitle: `▮Menu ▸`,
     thumbnail: 'https://telegra.ph/file/20509b31b6e05ff999daa.jpg'
     }
@@ -23,9 +23,9 @@ ftrol = {
     } 
   conn.sendFile(m.chat, json.url, '', 'Istri Watashi', ftrol, 0, { thumbnail: Buffer.alloc(0) })
 }
-handler.help = ['megumin']
+handler.help = ['husbu']
 handler.tags = ['anime']
-handler.command = /^(megumin)$/i
+handler.command = /^(husbu)$/i
 
 handler.limit = true
 
