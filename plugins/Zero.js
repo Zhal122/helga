@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-  conn.sendFile(m.chat, 'https://restapi-beta.herokuapp.com/api/zerochan?query=hatsune%20miku', '', '', m)
+  conn.sendFile(m.chat, 'https://restapi-beta.herokuapp.com/api/zerochan/${command}?apikey=APIKEY, '', '', m)
 }
 handler.help = ['zero']
 handler.tags = ['anime']
