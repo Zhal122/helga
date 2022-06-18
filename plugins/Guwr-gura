@@ -1,0 +1,8 @@
+let handler = async (m, { conn }) => {
+  conn.sendFile(m.chat, 'https://api.lolhuman.xyz/api/sticker/gawrgura?apikey=7b389b5e346e7b9181783e80', '', '', m)
+}
+handler.help = ['gawrgura']
+handler.tags = ['anime']
+handler.command = /^(gawrgura)$/i
+
+module.exports = handler
