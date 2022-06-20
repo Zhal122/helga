@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-  conn.sendFile(m.chat, 'https://telegra.ph/Gawrgura-06-19', '', '', m)
+  conn.sendFile(m.chat, 'https://api.lolhuman.xyz/api/sticker/gawrgura?apikey=ZhaaLLGan', '', '', m)
 }
 handler.help = ['gawrgura']
 handler.tags = ['anime']
