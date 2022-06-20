@@ -1,8 +1,9 @@
 let handler = async (m, { conn }) => {
-  conn.sendFile(m.chat, 'https://restapi-beta.herokuapp.com/api/${body.slice()}?query=hatsune%20miku Ihsana, '', '', m)
+let ren = 'https://api.lolhuman.xyz/api/random/husbu?apikey=#HIDDEN'
+    conn.sendButtonImg(m.chat, ren, wm2, 'NEXT', 'HUSBU', '.husbu', m)
 }
-handler.help = ['zero']
+handler.help = ['husbu']
 handler.tags = ['anime']
-handler.command = /^(zero)$/i
+handler.command = /^(husbu)$/i
 
 module.exports = handler
